@@ -1,0 +1,249 @@
+body , ul ,li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    height: 2500px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #333;
+    height: 40px;
+}
+.container{
+    margin: 0 auto;
+    width: 1226px;
+}
+.container::before{
+    content: "";
+    display: table;
+}
+.container::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.header a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.header a:hover{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.header1{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.header1 span{
+    font-size: 12px;
+    color: #424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+.header2{
+    float: right;
+}
+.header3{
+    float: right;
+}
+.header2 a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 120px;
+    background-color: #424242;
+}
+.header2 a:hover{
+    background-color: #fff;
+    color: #ff6700
+}
+.header2 span{
+    margin-left: -4px;
+    font-size: 12px;
+}
+.header2 i{
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 4px;
+    vertical-align: -4px;
+}
+.header3{
+    margin-right: 15px;
+}
+.header3 a{
+    float: left;
+    padding: 0 5px;
+    line-height: 40px;
+    height: 40px;
+}
+.header3 span{
+    float: left;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #424242;
+    line-height: 40px;
+    height: 40px;
+}
+.header3 .sep{
+    padding: 0 10px;
+}
+
+.header4{
+    height: 100px;
+}
+.header5 a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: #ff6700 url(./mi-logo.png) no-repeat 50% 50%;
+}
+.header5{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+    
+}
+.header6{
+    float: left;
+    width: 820px;
+    height: 100px;
+}
+.header6 .list{
+    width: 820px;
+    height: 88px;
+    font-size: 16px;
+    padding: 12px 0 0 30px;
+}
+.header6 .list .shouhang{
+    float: left;
+    width: 127px;
+    padding: 0 15px 0 0;
+}
+.header6 .list .shouhang a{
+    display: block;
+    text-align: right;
+    padding: 26px 0 38px;
+    color: #333;
+}
+.header6 .list .wenzi{
+    float: left;
+}
+.header6 .list .wenzi a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.header6 .list .wenzi a:hover{
+    color: #ff6700;
+}
+.header7{
+    float: right;
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+}
+.clearfix::before{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header7 .form{
+    position: relative;
+    display: block;
+    width: 296px;
+    height: 50px;
+}
+.header7 .form .text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    outline: 0;
+    border: 1px solid #e0e0e0;
+}
+.header7 .form .bottom{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height: 50px;
+    line-height: 24px;
+    font-size: 24px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+.header7 .form .bottom:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+.header8{
+    position: absolute;
+    top: 140px;
+    left: 339px;
+    
+}
+.header9{
+    height: 420px;
+    padding: 20px 0;
+    color: #ffffff;
+    background:rgba(0,0,0,0.6);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.header9 ul li{
+    font-size: 14px;
+    height:42px;
+    width: 234px;
+    line-height: 42px;
+}
+.header9 ul li a{
+    padding-left: 30px;
+    color: #ffffff;
+    display: block;
+}
+.header9 ul li a:hover{
+    background-color: #ff6116;
+    color: #ffffff;
+    text-decoration: none;
+}
+.img{
+    width: 1226px;
+    height: 460px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.header9 .wenzi{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding-right: 20px;
+}
+.advertising-img{
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+
+}
